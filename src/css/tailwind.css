@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.margin {
+    @apply ml-7 mr-7 md:ml-14 md:mr-14 lg:ml-20 lg:mr-20 2xl:ml-28 2xl:mr-28
+}
+
+.margin-top-45 {
+    @apply mt-5
+}
+
+.margin-bottom-45 {
+    @apply mb-10 md:mb-10 lg:mb-[45px] 2xl:mb-12
+}
+
+.margin-bottom-120 {
+    @apply mb-16 md:mb-28 lg:mb-[120px] 2xl:mb-32
+}
+
+.margin-bottom-218 {
+    @apply mb-28 md:mb-52 lg:mb-[218px] 2xl:mb-56
+}
+
+.margin-bottom-151 {
+    @apply mb-24 md:mb-32 lg:mb-[151px] 2xl:mb-40
+}
+
+.navlink-hover {
+    @apply hover:text-primary hover:transition-all hover:duration-500
+}
+
+.btn-bg {
+    @apply py-[11px] px-[27px] bg-primary text-center text-whiteText rounded-[3px] text-sm font-semibold hover:scale-95 hover:transition-all hover:duration-500
+}
+
+.btn-border {
+    @apply py-[11px] px-[27px] border-[1px] border-solid border-primary text-center text-primary rounded-[3px] text-sm font-semibold hover:scale-95 hover:transition-all hover:duration-500
+}
+
+.title-hero {
+    @apply text-[40px] md:text-4xl lg:text-[50px] font-PTSerif leading-tight lg:leading-[1.2] mb-[14px] md:text-center lg:text-left 2xl:text-left
+}
+
+.title-section {
+    @apply text-4xl text-primary font-PTSerif text-left
+}
+
+.desk-section {
+    @apply font-medium
+}
+
+.container-models {
+    @apply flex flex-col gap-4
+}
+
+.models {
+    @apply text-lg md:text-[28px] font-PTSerif text-primary
+}
+
+.desk-produk {
+    @apply text-xs md:text-[13px]
+}
+
+.btn-detail {
+    @apply flex justify-center bg-primary text-whiteText w-full py-[11px] rounded-[3px] text-sm font-semibold hover:scale-95 hover:transition-all hover:duration-500
+}
+
+.img-produk {
+    @apply w-full
+}
+
+.about-us {
+    @apply text-xl font-PTSerif text-primary
+}
+
+.title-aboutUs {
+    @apply text-3xl md:text-4xl lg:text-[47px] md:leading-none lg:leading-tight font-PTSerif
+}
+
+.check-icon {
+    @apply text-primary text-[30px]
+}
+
+.reason-title {
+    @apply lg:text-2xl text-primary font-PTSerif
+}
+
+.icon-quote {
+    @apply text-xl text-primary
+}
+
+.swiper-slide {
+    @apply p-[13px] border-[1px] border-solid border-primary flex flex-col gap-[13px] rounded-[3px] md:w-[50%] lg:w-[24%] cursor-pointer
+}
+
+.cust {
+    @apply text-sm font-PTSerif text-primary
+}
+
+.role {
+    @apply text-[10px]
+}
+
+.swiper-pagination-bullet {
+    @apply bg-swiper w-8 h-1 !rounded cursor-pointer
+}
+
+.swiper-pagination-bullet-active {
+    @apply bg-primary w-8 h-1 cursor-pointer
+}
+
+.swiper {
+    @apply relative overflow-hidden cursor-pointer
+}
+
+.swiper-wrapper {
+    @apply relative transition-transform ease-in-out cursor-pointer
+}
+
+.img-gallery {
+    @apply rounded-[3px] w-full h-full object-cover
+}
+
+.input-footer {
+    @apply p-3 rounded-[10px] relative
+}
+
+.hover-icon-footer {
+    @apply hover:transition-all hover:duration-500 hover:scale-105
+}
