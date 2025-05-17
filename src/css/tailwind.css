@@ -93,7 +93,7 @@
 }
 
 .swiper-slide {
-    @apply p-[13px] border-[1px] border-solid border-primary flex flex-col gap-[13px] rounded-[3px] md:w-[50%] lg:w-[24%] cursor-pointer
+    @apply p-[13px] border-[1px] border-solid border-primary flex flex-col gap-[13px] rounded-[3px] md:w-[40%] lg:w-[24%] cursor-pointer
 }
 
 .cust {
@@ -130,4 +130,8 @@
 
 .hover-icon-footer {
     @apply hover:transition-all hover:duration-500 hover:scale-105
+}
+
+.testi {
+    @apply lg:text-sm
 }
