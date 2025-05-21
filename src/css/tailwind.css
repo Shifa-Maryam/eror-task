@@ -133,5 +133,5 @@
 }
 
 .testi {
-    @apply lg:text-[14.5px]
+    @apply lg:text-[13.6px] 2xl:text-[15px]
 }
