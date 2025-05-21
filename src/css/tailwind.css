@@ -133,5 +133,5 @@
 }
 
 .testi {
-    @apply lg:text-sm
+    @apply lg:text-[13px]
 }
